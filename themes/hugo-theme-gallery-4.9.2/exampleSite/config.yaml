@@ -1,0 +1,6 @@
+baseURL: "/"
+languageCode: "en-us"
+title: "My Hugo Site"
+theme: "hugo-theme-gallery-4.9.2"
+[params]
+  description = "旅行照片集"

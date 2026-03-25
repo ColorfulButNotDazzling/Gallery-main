@@ -1,0 +1,18 @@
+baseURL = "https://zjk159357.github.io/Gallery/"
+languageCode = "zh-cn"
+title = "My photograph album"
+theme = "hugo-theme-gallery-4.9.2"
+
+# 添加以下配置帮助路径解析
+[permalinks]
+  posts = "/:section/:title/"
+
+[params]
+  # 可能需要根据主题调整
+  mainSections = ["posts", "gallery"]
+  [params.headers]
+    "/*" = [
+      "Cache-Control: no-cache, no-store, must-revalidate",
+      "Pragma: no-cache",
+      "Expires: 0"
+    ]
