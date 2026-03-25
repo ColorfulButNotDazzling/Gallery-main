@@ -33,7 +33,7 @@ jobs:
       - name: Build
         run: |
           hugo --minify \
-               --baseURL "https://ColorfulButNotDazzling.github.io/Gallery-main/"
+               --baseURL "https://zjk159357.github.io/Gallery/"
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
